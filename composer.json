@@ -1,0 +1,19 @@
+{
+    "name": "woozibibi/usaptayo",
+    "require": {
+        "twbs/bootstrap": "4.5.3"
+    },
+
+    "autoload":{
+    	"psr-4":{
+    		"app\\":"app/"
+    	}
+    },
+
+    "scripts":{
+        "post-update-cmd":[
+            "RMDIR public\\assets\\vendor\\bootstrap /S /Q",
+            "XCOPY /E /I vendor\\twbs\\bootstrap\\dist public\\assets\\vendor\\bootstrap"
+        ]
+    }
+}

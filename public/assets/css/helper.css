@@ -1,0 +1,54 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.error{
+  color: red;
+}
+
+.hide-scrollbar-y{
+  overflow-y: hidden;
+}
+
+.fill{
+  min-height: 100%;
+  height: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center-all {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+
